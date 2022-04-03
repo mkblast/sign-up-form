@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Sign Up</title>
+</head>
+
+<body>
+  <div class="side-bare">
+    <div class="logo-container">
+      <img src="images/odin-lined.png" alt="logo">
+      <span class="logo-name">ODIN</span>
+    </div>
+  </div>
+
+  <div class="form">
+    <p class="sample">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, quam veniam quis voluptate
+      dignissimos enim
+      accusamus nam ofsunt architecto voluptatibus! Rem quo rerum, delectus laborum velit vero a. Sunt, vitae?</p>
+    <form action="">
+      <fieldset>
+        <legend>Let's do this!</legend>
+        <div>
+          <div>
+            <label for="user-first-name">FIRST NAME</label>
+            <input type="text" id="user-first-name" name="user-first-name" required>
+          </div>
+
+          <div>
+            <label for="user-last-name">LAST NAME</label>
+            <input type="text" id="user-last-name" name="user-last-name" required>
+          </div>
+
+          <div>
+            <label for="user-email">EMAIL</label>
+            <input type="email" id="user-email" name="user-email" required>
+          </div>
+
+          <div>
+            <label for="user-phone">PHONE NUMBER</label>
+            <input type="tel" id="user-phone" name="user-phone" pattern="(\+\d{3}|0)\d{9}" required>
+          </div>
+
+          <div>
+            <label for="user-password">PASSWORD</label>
+            <input type="password" id="user-password" name="user-password" required>
+            <span class="match"></span>
+          </div>
+
+          <div>
+            <label for="user-confirm-password">CONFRIM PASSWORD</label>
+            <input type="password" id="user-confirm-password" name="user-confirm-password" required>
+          </div>
+        </div>
+      </fieldset>
+
+      <button type="submit" class="btn">Create Account</button>
+    </form>
+    <p class="log-in">Already have an account? <a href="https://google.com">Log in</a></p>
+  </div>
+
+</body>
+
+</html>
